@@ -1,6 +1,6 @@
 {
   "name": "@barbapapazes/renovate-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Barbapapazes preset for Renovate",
   "license": "MIT",
   "homepage": "https://github.com/barbapapazes/renovate-config",
