@@ -1,0 +1,28 @@
+{
+  "name": "@barbapapazes/renovate-config",
+  "version": "0.0.0",
+  "description": "Barbapapazes preset for Renovate",
+  "license": "MIT",
+  "homepage": "https://github.com/barbapapazes/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbapapazesrenovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/barbapapazes/renovate-config/issues"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator default.json",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "npm run validate",
+    "release": "npm run test && bumpp --tags --commit --push"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.4",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.42.0",
+    "renovate": "latest"
+  },
+  "packageManager": "pnpm@8.3.1"
+}
