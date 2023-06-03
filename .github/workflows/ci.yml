@@ -16,12 +16,15 @@ jobs:
       - uses: actions/checkout@v3
       - run: corepack enable
 
+      - run: npm install -g pnpm @antfu/ni
+
       - uses: actions/setup-node@v3
         with:
           cache: "pnpm"
+          node-version: 18
 
       - name: 📦 Install dependencies
-        run: pnpm install
+        run: nci
 
       - name: 🧪 Test project
-        run: pnpm test
+        run: nr test
