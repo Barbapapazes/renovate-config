@@ -21,4 +21,4 @@ Add the following to your `renovate.json` file:
 
 ## License
 
-[MIT](LICENSE) © [barbapapazes](https://github.com/barbapapazes)
+[MIT](LICENSE) © [Barbapapazes](https://github.com/barbapapazes)
