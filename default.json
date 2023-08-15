@@ -13,5 +13,21 @@
   "rangeStrategy": "bump",
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
-  }
+  },
+  "packageRules": [
+    {
+      "groupName": "npm packages",
+      "groupSlug": "npm",
+      "matchDatasources": [
+        "npm"
+      ]
+    },
+    {
+      "groupName": "github actions",
+      "groupSlug": "github-actions",
+      "matchDatasources": [
+        "github-tags"
+      ]
+    }
+  ]
 }
