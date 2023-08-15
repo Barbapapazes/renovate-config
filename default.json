@@ -1,9 +1,11 @@
 {
-  "description": "Default config for Barbapapazes repositories",
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Config for Barbapapazes",
   "extends": [
     "config:base",
     "group:allNonMajor",
-    ":semanticCommitTypeAll(chore)"
+    ":semanticCommitTypeAll(chore)",
+    "helpers:pinGitHubActionDigests"
   ],
   "meteor": {
     "enabled": false
