@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Config for Barbapapazes",
   "extends": [
-    "config:base",
+    "config:recommanded",
     "group:allNonMajor",
     ":semanticCommitTypeAll(chore)",
     "helpers:pinGitHubActionDigests"
