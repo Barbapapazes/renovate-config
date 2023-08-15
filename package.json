@@ -19,10 +19,10 @@
     "release": "npm run test && bumpp --tags --commit --push"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.4",
-    "bumpp": "^9.1.0",
-    "eslint": "^8.42.0",
+    "@antfu/eslint-config": "^0.40.2",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.47.0",
     "renovate": "latest"
   },
-  "packageManager": "pnpm@8.3.1"
+  "packageManager": "pnpm@8.6.12"
 }
