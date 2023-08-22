@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.40.2",
-    "bumpp": "^9.1.1",
+    "bumpp": "^9.2.0",
     "eslint": "^8.47.0",
     "renovate": "latest"
   },
