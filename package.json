@@ -1,6 +1,7 @@
 {
   "name": "@barbapapazes/renovate-config",
   "version": "0.0.8",
+  "packageManager": "pnpm@8.6.12",
   "description": "Barbapapazes preset for Renovate",
   "license": "MIT",
   "homepage": "https://github.com/barbapapazes/renovate-config",
@@ -23,6 +24,5 @@
     "bumpp": "^9.2.0",
     "eslint": "^8.47.0",
     "renovate": "latest"
-  },
-  "packageManager": "pnpm@8.6.12"
+  }
 }
