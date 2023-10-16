@@ -29,6 +29,13 @@
       "matchDatasources": [
         "github-tags"
       ]
+    },
+    {
+      "groupName": "engines",
+      "groupSlug": "engines",
+      "matchDepTypes": [
+        "engines"
+      ]
     }
   ]
 }
