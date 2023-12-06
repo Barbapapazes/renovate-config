@@ -63,7 +63,30 @@
         "nuxt"
       ],
       "matchPackagePatterns": [
-        "^@nuxt/"
+        "^@nuxt/",
+        "^@nuxthq/"
+      ]
+    },
+    {
+      "groupName": "vueuse",
+      "groupSlug": "vueuse",
+      "matchPackagePatterns": [
+        "^@vueuse/"
+      ]
+    },
+    {
+      "groupName": "nuxtseo",
+      "groupSlug": "nuxtseo",
+      "matchPackageNames": [
+        "@nuxtseo/module",
+        "nuxt-simple-robots",
+        "nuxt-simple-sitemap",
+        "nuxt-og-image",
+        "nuxt-link-checker",
+        "nuxt-seo-experiments",
+        "nuxt-schema-org",
+        "nuxt-seo-ui",
+        "nuxt-site-config"
       ]
     }
   ]
