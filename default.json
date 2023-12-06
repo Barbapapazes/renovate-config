@@ -37,6 +37,34 @@
       "matchDepTypes": [
         "engines"
       ]
+    },
+    {
+      "groupName": "package manager",
+      "groupSlug": "package-manager",
+      "matchPackageNames": [
+        "npm",
+        "yarn",
+        "pnpm"
+      ]
+    },
+    {
+      "groupName": "linter and formatter",
+      "groupSlug": "linter-and-formatter",
+      "matchPackageNames": [
+        "eslint",
+        "prettier",
+        "@antfu/eslint-config"
+      ]
+    },
+    {
+      "groupName": "nuxt",
+      "groupSlug": "nuxt",
+      "matchPackageNames": [
+        "nuxt"
+      ],
+      "matchPackagePatterns": [
+        "^@nuxt/"
+      ]
     }
   ]
 }
