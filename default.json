@@ -18,13 +18,6 @@
   },
   "packageRules": [
     {
-      "groupName": "npm packages",
-      "groupSlug": "npm",
-      "matchDatasources": [
-        "npm"
-      ]
-    },
-    {
       "groupName": "github actions",
       "groupSlug": "github-actions",
       "matchDatasources": [
@@ -48,55 +41,19 @@
       ]
     },
     {
+      "groupName": "npm packages",
+      "groupSlug": "npm",
+      "matchDatasources": [
+        "npm"
+      ]
+    },
+    {
       "groupName": "linter and formatter",
       "groupSlug": "linter-and-formatter",
       "matchPackageNames": [
         "eslint",
         "prettier",
         "@antfu/eslint-config"
-      ]
-    },
-    {
-      "groupName": "nuxt",
-      "groupSlug": "nuxt",
-      "matchPackageNames": [
-        "nuxt"
-      ],
-      "matchPackagePatterns": [
-        "^@nuxt/",
-        "^@nuxthq/"
-      ]
-    },
-    {
-      "groupName": "vueuse",
-      "groupSlug": "vueuse",
-      "matchPackagePatterns": [
-        "^@vueuse/"
-      ]
-    },
-    {
-      "groupName": "nuxtseo",
-      "groupSlug": "nuxtseo",
-      "matchPackageNames": [
-        "@nuxtseo/module",
-        "@nuxtjs/sitemap",
-        "@nuxtjs/seo",
-        "@nuxtjs/sitemap",
-        "nuxt-simple-robots",
-        "nuxt-simple-sitemap",
-        "nuxt-og-image",
-        "nuxt-link-checker",
-        "nuxt-seo-experiments",
-        "nuxt-schema-org",
-        "nuxt-seo-ui",
-        "nuxt-site-config"
-      ]
-    },
-    {
-      "groupName": "vue",
-      "groupSlug": "vue",
-      "matchPackageNames": [
-        "vue"
       ]
     },
     {
@@ -115,6 +72,49 @@
       ],
       "matchPackagePatterns": [
         "^@unocss/"
+      ]
+    },
+    {
+      "groupName": "vueuse",
+      "groupSlug": "vueuse",
+      "matchPackagePatterns": [
+        "^@vueuse/"
+      ]
+    },
+    {
+      "groupName": "vue",
+      "groupSlug": "vue",
+      "matchPackageNames": [
+        "vue"
+      ]
+    },
+    {
+      "groupName": "nuxt",
+      "groupSlug": "nuxt",
+      "matchPackageNames": [
+        "nuxt"
+      ],
+      "matchPackagePatterns": [
+        "^@nuxt/",
+        "^@nuxthq/"
+      ]
+    },
+    {
+      "groupName": "nuxtseo",
+      "groupSlug": "nuxtseo",
+      "matchPackageNames": [
+        "@nuxtseo/module",
+        "@nuxtjs/sitemap",
+        "@nuxtjs/seo",
+        "@nuxtjs/sitemap",
+        "nuxt-simple-robots",
+        "nuxt-simple-sitemap",
+        "nuxt-og-image",
+        "nuxt-link-checker",
+        "nuxt-seo-experiments",
+        "nuxt-schema-org",
+        "nuxt-seo-ui",
+        "nuxt-site-config"
       ]
     },
     {
