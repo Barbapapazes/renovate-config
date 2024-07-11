@@ -81,6 +81,7 @@
         "@nuxtseo/module",
         "@nuxtjs/sitemap",
         "@nuxtjs/seo",
+        "@nuxtjs/sitemap",
         "nuxt-simple-robots",
         "nuxt-simple-sitemap",
         "nuxt-og-image",
