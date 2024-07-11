@@ -91,6 +91,21 @@
         "nuxt-seo-ui",
         "nuxt-site-config"
       ]
+    },
+    {
+      "groupName": "vue",
+      "groupSlug": "vue",
+      "matchPackageNames": [
+        "vue"
+      ]
+    },
+    {
+      "groupName": "iconify",
+      "groupSlug": "iconify",
+      "matchPackagePatterns": [
+        "^@iconify/",
+        "^@iconify-json/"
+      ]
     }
   ]
 }
