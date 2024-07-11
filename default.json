@@ -18,29 +18,6 @@
   },
   "packageRules": [
     {
-      "groupName": "github actions",
-      "groupSlug": "github-actions",
-      "matchDatasources": [
-        "github-tags"
-      ]
-    },
-    {
-      "groupName": "engines",
-      "groupSlug": "engines",
-      "matchDepTypes": [
-        "engines"
-      ]
-    },
-    {
-      "groupName": "package manager",
-      "groupSlug": "package-manager",
-      "matchPackageNames": [
-        "npm",
-        "yarn",
-        "pnpm"
-      ]
-    },
-    {
       "groupName": "npm packages",
       "groupSlug": "npm",
       "matchDatasources": [
@@ -132,6 +109,29 @@
       "groupSlug": "adonisjs",
       "matchPackagePatterns": [
         "^@adonisjs/"
+      ]
+    },
+    {
+      "groupName": "github actions",
+      "groupSlug": "github-actions",
+      "matchDatasources": [
+        "github-tags"
+      ]
+    },
+    {
+      "groupName": "engines",
+      "groupSlug": "engines",
+      "matchDepTypes": [
+        "engines"
+      ]
+    },
+    {
+      "groupName": "package manager",
+      "groupSlug": "package-manager",
+      "matchPackageNames": [
+        "npm",
+        "yarn",
+        "pnpm"
       ]
     }
   ]
