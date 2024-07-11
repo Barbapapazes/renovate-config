@@ -75,6 +75,16 @@
       ]
     },
     {
+      "groupName": "tailwindcss",
+      "groupSlug": "tailwindcss",
+      "matchPackageNames": [
+        "tailwindcss"
+      ],
+      "matchPackagePatterns": [
+        "^@tailwindcss/"
+      ]
+    },
+    {
       "groupName": "vueuse",
       "groupSlug": "vueuse",
       "matchPackagePatterns": [
