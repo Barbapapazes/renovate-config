@@ -72,7 +72,8 @@
       "groupName": "vue",
       "groupSlug": "vue",
       "matchPackageNames": [
-        "vue"
+        "vue",
+        "vue-router"
       ]
     },
     {
