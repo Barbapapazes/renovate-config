@@ -20,8 +20,8 @@
     "test": "npm run validate"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.0",
-    "eslint": "^9.6.0",
+    "@antfu/eslint-config": "^2.23.2",
+    "eslint": "^9.7.0",
     "renovate": "latest"
   }
 }
