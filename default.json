@@ -4,6 +4,7 @@
   "extends": [
     "config:recommended",
     "group:allNonMajor",
+    ":labels(dependencies, chore)",
     ":maintainLockFilesWeekly",
     ":semanticCommitTypeAll(chore)",
     "helpers:pinGitHubActionDigests"
@@ -16,6 +17,7 @@
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
   },
+  "schedule": ["on Monday"],
   "packageRules": [
     {
       "groupName": "composer packages",
