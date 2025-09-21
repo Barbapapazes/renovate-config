@@ -37,6 +37,44 @@
       ]
     },
     {
+      "groupName": "symfony packages",
+      "groupSlug": "symfony",
+      "matchDatasources": [
+        "packagist"
+      ],
+      "matchPackagePatterns": [
+        "^symfony/"
+      ]
+    },
+    {
+      "groupName": "php development tools",
+      "groupSlug": "php-dev-tools",
+      "matchDatasources": [
+        "packagist"
+      ],
+      "matchPackageNames": [
+        "phpunit/phpunit",
+        "pestphp/pest",
+        "phpstan/phpstan",
+        "psalm/plugin-laravel",
+        "vimeo/psalm",
+        "squizlabs/php_codesniffer",
+        "friendsofphp/php-cs-fixer",
+        "laravel/pint",
+        "roave/security-advisories"
+      ]
+    },
+    {
+      "groupName": "doctrine packages",
+      "groupSlug": "doctrine",
+      "matchDatasources": [
+        "packagist"
+      ],
+      "matchPackagePatterns": [
+        "^doctrine/"
+      ]
+    },
+    {
       "groupName": "npm packages",
       "groupSlug": "npm",
       "matchDatasources": [
