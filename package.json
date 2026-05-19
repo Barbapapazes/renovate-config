@@ -22,6 +22,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^9.0.0",
     "eslint": "^10.4.0",
-    "renovate": "latest"
+    "renovate": "latest",
+    "taze": "^19.13.0"
   }
 }
