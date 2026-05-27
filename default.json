@@ -30,16 +30,6 @@
       ]
     },
     {
-      "groupName": "laravel packages",
-      "groupSlug": "laravel",
-      "matchDatasources": [
-        "packagist"
-      ],
-      "matchPackagePatterns": [
-        "^laravel/"
-      ]
-    },
-    {
       "groupName": "npm packages",
       "groupSlug": "npm",
       "matchDatasources": [
@@ -65,6 +55,7 @@
       "matchCurrentVersion": "!/^[0]\\./",
       "automerge": true,
       "automergeType": "pr",
+      "ignoreTests": false,
       "prCreation": "not-pending"
     },
     {
@@ -74,132 +65,8 @@
       "matchCurrentVersion": "!/^[0]\\./",
       "automerge": true,
       "automergeType": "pr",
+      "ignoreTests": false,
       "prCreation": "not-pending"
-    },
-    {
-      "groupName": "linter and formatter",
-      "groupSlug": "linter-and-formatter",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackageNames": [
-        "eslint",
-        "prettier",
-        "@antfu/eslint-config"
-      ]
-    },
-    {
-      "groupName": "iconify",
-      "groupSlug": "iconify",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackagePatterns": [
-        "^@iconify/",
-        "^@iconify-json/"
-      ]
-    },
-    {
-      "groupName": "unocss",
-      "groupSlug": "unocss",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackageNames": [
-        "unocss"
-      ],
-      "matchPackagePatterns": [
-        "^@unocss/"
-      ]
-    },
-    {
-      "groupName": "tailwindcss",
-      "groupSlug": "tailwindcss",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackageNames": [
-        "tailwindcss"
-      ],
-      "matchPackagePatterns": [
-        "^@tailwindcss/"
-      ]
-    },
-    {
-      "groupName": "vueuse",
-      "groupSlug": "vueuse",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackagePatterns": [
-        "^@vueuse/"
-      ]
-    },
-    {
-      "groupName": "vue",
-      "groupSlug": "vue",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackageNames": [
-        "vue",
-        "vue-router"
-      ]
-    },
-    {
-      "groupName": "nuxt",
-      "groupSlug": "nuxt",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackageNames": [
-        "nuxt"
-      ],
-      "matchPackagePatterns": [
-        "^@nuxt/",
-        "^@nuxthq/"
-      ]
-    },
-    {
-      "groupName": "nuxtseo",
-      "groupSlug": "nuxtseo",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackageNames": [
-        "@nuxtseo/module",
-        "@nuxtjs/sitemap",
-        "@nuxtjs/seo",
-        "@nuxtjs/sitemap",
-        "nuxt-simple-robots",
-        "nuxt-simple-sitemap",
-        "nuxt-og-image",
-        "nuxt-link-checker",
-        "nuxt-seo-experiments",
-        "nuxt-schema-org",
-        "nuxt-seo-ui",
-        "nuxt-site-config"
-      ]
-    },
-    {
-      "groupName": "laravel-npm",
-      "groupSlug": "laravel-npm",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackageNames": [
-        "laravel-vite-plugin"
-      ]
-    },
-    {
-      "groupName": "adonisjs",
-      "groupSlug": "adonisjs",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackagePatterns": [
-        "^@adonisjs/"
-      ]
     },
     {
       "groupName": "github actions",
@@ -213,15 +80,6 @@
       "groupSlug": "engines",
       "matchDepTypes": [
         "engines"
-      ]
-    },
-    {
-      "groupName": "package manager",
-      "groupSlug": "package-manager",
-      "matchPackageNames": [
-        "npm",
-        "yarn",
-        "pnpm"
       ]
     }
   ]
