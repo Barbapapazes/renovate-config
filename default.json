@@ -53,7 +53,7 @@
       "automerge": false
     },
     {
-      "description": "Automerge non-major npm updates (patch/minor/pin/digest) after stability window",
+      "description": "Automerge non-major npm updates (patch/minor/pin/digest)",
       "matchDatasources": ["npm"],
       "matchUpdateTypes": ["patch", "minor", "pin", "digest"],
       "matchCurrentVersion": "!/^[0]\\./",
@@ -62,7 +62,7 @@
       "prCreation": "not-pending"
     },
     {
-      "description": "Automerge non-major composer updates (patch/minor/pin/digest) after stability window",
+      "description": "Automerge non-major composer updates (patch/minor/pin/digest)",
       "matchDatasources": ["packagist"],
       "matchUpdateTypes": ["patch", "minor", "pin", "digest"],
       "automerge": true,
