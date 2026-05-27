@@ -53,6 +53,12 @@
       "automerge": false
     },
     {
+      "description": "Do not automerge composer 0.x packages",
+      "matchDatasources": ["packagist"],
+      "matchCurrentVersion": "/^0\\./",
+      "automerge": false
+    },
+    {
       "description": "Automerge non-major npm updates (patch/minor/pin/digest)",
       "matchDatasources": ["npm"],
       "matchUpdateTypes": ["patch", "minor", "pin", "digest"],
@@ -65,6 +71,7 @@
       "description": "Automerge non-major composer updates (patch/minor/pin/digest)",
       "matchDatasources": ["packagist"],
       "matchUpdateTypes": ["patch", "minor", "pin", "digest"],
+      "matchCurrentVersion": "!/^[0]\\./",
       "automerge": true,
       "automergeType": "pr",
       "prCreation": "not-pending"
