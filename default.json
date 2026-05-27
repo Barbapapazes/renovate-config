@@ -59,6 +59,16 @@
       "matchCurrentVersion": "!/^[0]\\./",
       "automerge": true,
       "automergeType": "pr",
+      "requiredStatusChecks": ["CI"],
+      "prCreation": "not-pending"
+    },
+    {
+      "description": "Automerge non-major composer updates (patch/minor/pin/digest) after stability window",
+      "matchDatasources": ["packagist"],
+      "matchUpdateTypes": ["patch", "minor", "pin", "digest"],
+      "automerge": true,
+      "automergeType": "pr",
+      "requiredStatusChecks": ["CI"],
       "prCreation": "not-pending"
     },
     {
