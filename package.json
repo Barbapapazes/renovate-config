@@ -2,7 +2,7 @@
   "name": "@barbapapazes/renovate-config",
   "type": "module",
   "version": "0.0.8",
-  "packageManager": "pnpm@10.33.4",
+  "packageManager": "pnpm@10.34.5",
   "description": "Barbapapazes preset for Renovate",
   "license": "MIT",
   "homepage": "https://github.com/barbapapazes/renovate-config",
@@ -20,9 +20,9 @@
     "test": "npm run validate"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.0.0",
-    "eslint": "^10.4.0",
+    "@antfu/eslint-config": "^9.3.0",
+    "eslint": "^10.9.1",
     "renovate": "latest",
-    "taze": "^19.13.0"
+    "taze": "^19.17.2"
   }
 }
