@@ -10,7 +10,7 @@
     "helpers:pinGitHubActionDigests"
   ],
   "prCreation": "not-pending",
-  "automerge": true,
+  "automerge": false,
   "automergeType": "pr",
   "ignoreTests": false,
   "dependencyDashboard": true,
@@ -25,6 +25,11 @@
   "internalChecksFilter": "strict",
   "schedule": ["on Monday"],
   "packageRules": [
+    {
+      "description": "Automerge only patch and minor updates",
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    },
     {
       "groupName": "composer packages",
       "groupSlug": "composer",

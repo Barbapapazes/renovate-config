@@ -16,11 +16,11 @@ Add the following to your `renovate.json` file:
 
 ## Auto-merge
 
-The shared preset enables PR auto-merge for all Renovate updates across all package managers, including major updates, pre-1.0 packages, and lock file maintenance. This also applies to this repository, which extends the same preset.
+The shared preset enables PR auto-merge only for patch and minor updates across all package managers, including pre-1.0 packages. Major updates are never auto-merged by this preset. Other update types, including pin, digest, and lock file maintenance, also require manual merging. This also applies to this repository, which extends the same preset.
 
 Renovate does not ignore tests. Configure required status checks and branch protection in each consuming repository to enforce your merge requirements. When using GitHub's native auto-merge, enable **Allow auto-merge** in that repository's settings. The preset does not change repository settings or bypass merge rules.
 
-Consuming repositories can override this behavior with `"automerge": false`, globally or in a package rule.
+Consuming repositories can disable patch and minor auto-merge with a package rule matching those update types and setting `"automerge": false`.
 
 ## Useful links
 
